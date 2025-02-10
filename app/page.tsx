@@ -112,7 +112,7 @@ export default function Component() {
       <div ref={headerRef} className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-gradient-to-b from-white via-white to-transparent h-24' : ''}`}>
         <div className={`container mx-auto px-4 py-6 flex justify-between items-center ${isScrolled ? 'bg-white' : ''} relative z-10`}>
           <div className="text-2xl font-bold">Era Search</div>
-          <Link href="https://play.google.com/store/apps/details?id=com.erainc.era" target="_blank"passHref><button className="px-6 py-2 rounded-full font-semibold transition-colors bg-black text-white hover:bg-black">
+          <Link href="https://github.com/anshsx/era-web/releases/download/v1.0.0-alpha/app-release.3.apk" target="_blank"passHref><button className="px-6 py-2 rounded-full font-semibold transition-colors bg-black text-white hover:bg-black">
             Download
           </button></Link>
         </div>
