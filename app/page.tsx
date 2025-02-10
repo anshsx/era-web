@@ -14,8 +14,8 @@ import qr from '../qr.png'
 
 const features = [
   { 
-    title: "GOOGLE SEARCH",
-    description: "Powered by Google Search Engine",
+    title: "SEARCH ENGINES",
+    description: "Powered by 5 Search Engines",
     image: google
   },
   { 
@@ -147,7 +147,7 @@ export default function Component() {
 
           </motion.span>
         </motion.h1>
-        <Link href="https://play.google.com/store/apps/details?id=com.erainc.era"target="_blank"passHref><motion.button 
+        <Link href="https://github.com/anshsx/era-web/releases/download/v1.0.0-alpha/app-release.3.apk"target="_blank"passHref><motion.button 
           className="px-8 py-4 rounded-full text-xl font-semibold bg-gray-900 text-white hover:bg-gray-800 transition-colors relative z-10"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
